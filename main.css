@@ -388,7 +388,26 @@ body {
     color: var(--dark);
     border-color: var(--dark);
 }
-.contact__icon{
+.contact__icon {
     margin-right: 0.5rem;
 }
 /* //contact */
+
+/* footer */
+.footer {
+    background: var(--dark);
+    padding: 3rem 0;
+}
+.footer__icons {
+    display: flex;
+    justify-content: space-around;
+}
+.footer__single-icon {
+    font-size: 2rem;
+    color: var(--light);
+    transition: all 2s ease;
+}
+.footer__single-icon:hover {
+    color: var(--dark);
+}
+/* //footer */
