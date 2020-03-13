@@ -12,7 +12,7 @@ body {
     --light: #fff;
     --dark: #181b24;
     --grey: #899495;
-    --orange: #fc5130;
+    --purple: #665df5;
     --SectionGrey: #f2f2f2;
     --SectionWhite: #fff;
 }
@@ -26,6 +26,10 @@ body {
     justify-content: space-between;
     padding: 0.25rem 1rem;
     border-bottom: 0.5rem solid var(--dark);
+}
+
+.nav__header img {
+    width: 150px;
 }
 .nav__btn {
     font-size: 3rem;
@@ -43,7 +47,7 @@ body {
     padding: 0.5rem 1rem;
     font-style: italic;
     text-transform: capitalize;
-    color: var(--orange);
+    color: var(--purple);
     transition: all 1s linear;
 }
 .nav__single-link:hover {
@@ -64,7 +68,7 @@ body {
     .nav {
         display: flex;
         flex-wrap: wrap;
-        border-bottom: 0.4rem solid var(--dark);
+        border-bottom: 0.4rem solid var(--grey);
     }
     .nav__header {
         border: none;
@@ -100,7 +104,7 @@ body {
             rgba(255, 255, 255, 0.3),
             rgba(255, 255, 255, 0.3)
         ),
-        url(./img/header-bcg.jpeg) center/cover fixed no-repeat;
+        url(./img/bike.jpeg) center/cover fixed no-repeat;
     display: flex;
     flex-direction: column;
 }
